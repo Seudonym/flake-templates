@@ -13,6 +13,11 @@
         description = "A simple C/C++ application template";
       };
 
+      python = {
+        path = ./python;
+        description = "A simple Python (uv) application template";
+      };
+
       defaultTemplate = self.templates.rust;
     };
   };
