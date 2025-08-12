@@ -18,6 +18,10 @@
         description = "A simple Python (uv) application template";
       };
 
+      ros2 = {
+        path = ./ros2;
+        description = "A simple ROS2 development template";
+      };
       defaultTemplate = self.templates.rust;
     };
   };
